@@ -14,11 +14,8 @@
 <tr valign="top">
 <td id="layout-menu">
 <div class="menu-category">Yidong Ouyang</div>
-<div class="menu-item"><a href="#experience">Experience</a></div>
-<div class="menu-item"><a href="#publications">Publications</a></div>
-<div class="menu-item"><a href="#talks">Talks</a></div>
-<div class="menu-item"><a href="#teaching">Teaching</a></div>
-<div class="menu-item"><a href="#service">Service</a></div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
@@ -54,76 +51,26 @@ Jun 2025 &ndash; Sep 2025, Arlington</p>
 </li>
 </ul>
 
-<h2 id="publications">Publications</h2>
-<p><i>* denotes equal contribution.</i></p>
+<h2 id="publications">Selected Publications <span style="font-size:17px;font-weight:normal;">(<a href="publications.html">full list</a>)</span></h2>
 <ol>
 <li><p><a href="https://arxiv.org/abs/2605.09291" target="_blank">dFlowGRPO: Rate-Aware Policy Optimization for Discrete Flow Models</a> <br />
 Zhengyan Wan, <b>Yidong Ouyang</b>, Panwen Hu, Qiang Sun <br />
-[<a href="https://arxiv.org/abs/2605.09291" target="_blank">arxiv</a>] [<a href="https://github.com/WanZhengyan/dFlowGRPO" target="_blank">code</a>] <br />
-We derive the full trajectory probability for DFMs and formulate denoising as a Markov decision process, enabling dFlowGRPO to incorporate information from both the associated conditional transition rates and the posterior model during reinforcement learning.</p>
-</li>
-<li><p><a href="http://arxiv.org/abs/2602.02927" target="_blank">Training-Free Self-Correction for Multimodal Masked Diffusion Models</a> <br />
-<b>Yidong Ouyang</b>, Panwen Hu, Zhengyan Wan, Zhe Wang, Liyan Xie, Dmitriy Bespalov, Ying Nian Wu, Guang Cheng, Hongyuan Zha, Qiang Sun <br />
-[<a href="http://arxiv.org/abs/2602.02927" target="_blank">arxiv</a>] [<a href="https://github.com/huge123/FreeCorrection" target="_blank">code</a>] <br />
-We propose a training-free self-correction framework that exploits the inductive biases of pre-trained masked diffusion models. Without modifying model parameters or introducing auxiliary evaluators, our method significantly improves generation quality on text-to-image generation and multimodal understanding tasks with reduced sampling steps.</p>
+[<a href="https://arxiv.org/abs/2605.09291" target="_blank">arxiv</a>] [<a href="https://github.com/WanZhengyan/dFlowGRPO" target="_blank">code</a>]</p>
 </li>
 <li><p><a href="https://arxiv.org/abs/2601.22519" target="_blank">Corrected Samplers for Discrete Flow Models</a> <br />
 Zhengyan Wan, <b>Yidong Ouyang</b>, Liyan Xie, Fang Fang, Hongyuan Zha, Guang Cheng <br />
 <i>International Conference on Machine Learning (ICML)</i>, 2026 <br />
-[<a href="https://arxiv.org/abs/2601.22519" target="_blank">arxiv</a>] [<a href="https://github.com/WanZhengyan/Corrected-Samplers-for-Discrete-Flow-Models" target="_blank">code</a>] <br />
-We propose two corrected samplers: a time-corrected sampler and a location-corrected sampler, which reduce the discretization error of tau-leaping and Euler solvers with almost no additional computational cost.</p>
+[<a href="https://arxiv.org/abs/2601.22519" target="_blank">arxiv</a>] [<a href="https://github.com/WanZhengyan/Corrected-Samplers-for-Discrete-Flow-Models" target="_blank">code</a>]</p>
 </li>
 <li><p><a href="https://arxiv.org/abs/2509.21912" target="_blank">Discrete Guidance Matching: Exact Guidance for Discrete Flow Matching</a> <br />
 <b>Yidong Ouyang*</b>, Zhengyan Wan*, Liyan Xie, Fang Fang, Hongyuan Zha, Guang Cheng <br />
 <i>International Conference on Learning Representations (ICLR)</i>, 2026 <br />
-[<a href="https://arxiv.org/abs/2509.21912" target="_blank">arxiv</a>] [<a href="https://github.com/WanZhengyan/Discrete-Guidance-Matching/tree/main" target="_blank">code</a>] <br />
-We derive the exact transition rate for the desired distribution given a learned discrete flow matching model, leading to guidance that only requires a single forward pass in each sampling step.</p>
-</li>
-<li><p><a href="https://arxiv.org/abs/2509.21906" target="_blank">Error Analysis of Discrete Flow with Generator Matching</a> <br />
-Zhengyan Wan, <b>Yidong Ouyang</b>, Qiang Yao, Liyan Xie, Fang Fang, Hongyuan Zha, Guang Cheng <br />
-<i>International Conference on Machine Learning (ICML)</i>, 2026 <br />
-[<a href="https://arxiv.org/abs/2509.21906" target="_blank">arxiv</a>] <br />
-We derive the KL divergence between two path measures of continuous-time Markov chains with different transition rates by developing a novel Girsanov-type theorem, and provide a comprehensive analysis of the error arising from transition rate estimation and early stopping.</p>
-</li>
-<li><p><a href="https://arxiv.org/abs/2602.00413" target="_blank">Alignment of Diffusion Model and Flow Matching for Text-to-Image Generation</a> <br />
-<b>Yidong Ouyang</b>, Liyan Xie, Hongyuan Zha, Guang Cheng <br />
-[<a href="https://arxiv.org/abs/2602.00413" target="_blank">arxiv</a>] <br />
-We propose a novel alignment framework by leveraging the underlying nature of the alignment problem&mdash;sampling from reward-weighted distributions&mdash;and show that it applies to both diffusion models (via score guidance) and flow matching models (via velocity guidance).</p>
+[<a href="https://arxiv.org/abs/2509.21912" target="_blank">arxiv</a>] [<a href="https://github.com/WanZhengyan/Discrete-Guidance-Matching/tree/main" target="_blank">code</a>]</p>
 </li>
 <li><p><a href="https://arxiv.org/abs/2405.16876" target="_blank">Transfer Learning for Diffusion Models</a> <br />
 <b>Yidong Ouyang</b>, Liyan Xie, Hongyuan Zha, Guang Cheng <br />
 <i>Annual Conference on Neural Information Processing Systems (NeurIPS)</i>, 2024 <br />
-[<a href="https://arxiv.org/abs/2405.16876" target="_blank">arxiv</a>] [<a href="https://github.com/YiDongOuYang/Transfer-Learning-for-Diffusion-Models" target="_blank">code</a>] <br />
-We prove that the optimal diffusion model for the target domain integrates pre-trained diffusion models on the source domain with additional guidance from a domain classifier. We further extend TGDP to a conditional version for modeling the joint distribution of data and labels, together with two additional regularization terms.</p>
-</li>
-<li><p><a href="https://arxiv.org/abs/2307.00467" target="_blank">MissDiff: Training Diffusion Models on Tabular Data with Missing Values</a> <br />
-<b>Yidong Ouyang</b>, Liyan Xie, Chongxuan Li, Guang Cheng <br />
-<i>ICML Workshop on Structured Probabilistic Inference &amp; Generative Modeling</i>, 2023 <br />
-[<a href="https://arxiv.org/abs/2307.00467" target="_blank">arxiv</a>] [<a href="https://github.com/YiDongOuYang/MissDiff" target="_blank">code</a>] <br />
-We observe that the widely adopted &ldquo;impute-then-generate&rdquo; pipeline may lead to a biased learning objective, and propose to mask the regression loss of denoising score matching during training. We prove the proposed method is consistent in learning the score of data distributions.</p>
-</li>
-<li><p><a href="https://arxiv.org/abs/2210.09643" target="_blank">Improving Adversarial Robustness Through the Contrastive-Guided Diffusion Process</a> <br />
-<b>Yidong Ouyang</b>, Liyan Xie, Guang Cheng <br />
-<i>International Conference on Machine Learning (ICML)</i>, 2023 <br />
-[<a href="https://arxiv.org/abs/2210.09643" target="_blank">arxiv</a>] [<a href="https://github.com/YiDongOuYang/Contrastive-Guided-Diffusion-Process" target="_blank">code</a>] <br />
-We analyze the optimality condition of the synthetic distribution for achieving non-trivial robust accuracy, and propose the Contrastive-Guided Diffusion Process (Contrastive-DP), which adopts a contrastive loss to guide the diffusion model in data generation.</p>
-</li>
-<li><p><a href="https://arxiv.org/pdf/2202.12166.pdf" target="_blank">Attention Enables Zero Approximation Error</a> <br />
-Zhiying Fang, <b>Yidong Ouyang</b>, Ding-Xuan Zhou, Guang Cheng <br />
-[<a href="https://arxiv.org/pdf/2202.12166.pdf" target="_blank">arxiv</a>] <br />
-We theoretically prove that the self-attention model can achieve zero approximation error, and that our proposed model can avoid the classical trade-off between approximation error and sample error in the mean squared error analysis.</p>
-</li>
-<li><p><a href="https://arxiv.org/pdf/2103.03097.pdf" target="_blank">Generalizing to Unseen Domains: A Survey on Domain Generalization</a> <br />
-Jindong Wang, Cuiling Lan, Chang Liu, <b>Yidong Ouyang</b>, Tao Qin <br />
-<i>IEEE TKDE / IJCAI 2021 survey track</i> <br />
-[<a href="https://arxiv.org/pdf/2103.03097.pdf" target="_blank">arxiv</a>] <br />
-The first review of recent advances in domain generalization, including the theory of generalization, a taxonomy of domain generalization methods, and potential research topics.</p>
-</li>
-<li><p><a href="https://www.sciencedirect.com/science/article/pii/S0925231222002338" target="_blank">Learning Efficient Convolutional Networks through Irregular Convolutional Kernels</a> <br />
-Weiyu Guo, Jiabin Ma, <b>Yidong Ouyang</b>, Liang Wang, Yongzhen Huang <br />
-<i>Neurocomputing</i> <br />
-[<a href="https://www.sciencedirect.com/science/article/pii/S0925231222002338" target="_blank">paper</a>] <br />
-We propose RotateConv kernels, an interpolation-based method that transforms traditional square kernels into line segments, massively reducing the number of parameters and calculations while maintaining acceptable performance.</p>
+[<a href="https://arxiv.org/abs/2405.16876" target="_blank">arxiv</a>] [<a href="https://github.com/YiDongOuYang/Transfer-Learning-for-Diffusion-Models" target="_blank">code</a>]</p>
 </li>
 </ol>
 
